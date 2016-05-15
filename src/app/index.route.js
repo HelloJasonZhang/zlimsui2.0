@@ -19,7 +19,6 @@
                 controller: 'ResourceTemplateController',
                 controllerAs: 'resTemp'
             });
-
         $urlRouterProvider.otherwise('/');
     }
 

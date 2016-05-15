@@ -11,6 +11,7 @@
 
         vm.creationDate = 1463287863563;
         vm.toggleList = toggleList;
+       
         vm.menu = [{
             link: '',
             title: 'Dashboard',
@@ -33,7 +34,6 @@
             title: 'Settings',
             icon: 'settings'
         }];
-
         activate();
 
         function activate() {

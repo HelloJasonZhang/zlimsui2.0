@@ -1,7 +1,20 @@
 (function() {
-  'use strict';
+    'use strict';
 
-  angular
-    .module('test', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'restangular', 'ui.router', 'ngMaterial', 'toastr','ui.grid']);
+    angular
+        .module('test', [
+            'ngAnimate',
+            'ngCookies',
+            'ngTouch',
+            'ngSanitize',
+            'ngMessages',
+            'ngAria',
+            'restangular',
+            'ui.router',
+            'ngMaterial',
+            'toastr',
+            'ui.grid',
+            'ngMenuSidenav'
+        ]);
 
 })();
