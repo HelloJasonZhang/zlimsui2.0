@@ -13,7 +13,7 @@
                 templateUrl: 'app/main/main.html',
                 controller: 'MainController',
                 controllerAs: 'main'
-            }).state('resource', {
+            }).state('home.resource', {
                 url: '/resource',
                 templateUrl: 'app/resource/resourcetemplate.html',
                 controller: 'ResourceTemplateController',

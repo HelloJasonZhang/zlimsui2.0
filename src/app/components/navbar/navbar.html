@@ -1,13 +1,23 @@
 <md-toolbar layout="row" layout-align="center center">
 
-  <md-button href="">ZLIMS</md-button>
-
-  <section flex layout="row" layout-align="left center">
-    <md-button ui-sref="resource" class="md-raised">Home</md-button>
+    <md-button class="menu" ng-click="vm.toggleList()" aria-label="Show menu">
+  		<md-icon md-font-library="material-icons">menu</md-icon>
+    </md-button>
+  <md-button class="acme-navbar-text">ZLIMSv0.5 was created {{ vm.relativeDate }}.</md-button>
+  <section flex layout="row" layout-align="right center">
+    <md-button ui-sref="home.resource" class="md-raised">Home</md-button>
     <md-button href="#" class="md-raised">About</md-button>
     <md-button href="#" class="md-raised">Contact</md-button>
   </section>
 
-  <md-button class="acme-navbar-text">Application was created {{ vm.relativeDate }}.</md-button>
+    </md-button>
+        <md-button class="acme-navbar-text" aria-label="help">
+    	<md-icon class="material-icons">translate</md-icon>
+    </md-button>
+    <md-button class="acme-navbar-text" aria-label="account">
+        <md-icon class="material-icons">account_box</md-icon>
+    </md-button>
+    <md-button class="acme-navbar-text" aria-label="help">
+    	<md-icon class="material-icons">help</md-icon>
 
 </md-toolbar>
