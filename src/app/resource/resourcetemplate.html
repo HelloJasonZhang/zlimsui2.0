@@ -1,0 +1,13 @@
+<div>
+    <select ng-model="lang" ng-options="l for l in langs"></select>
+    <br>
+    <div ui-i18n="{{lang}}">
+        <p>Using attribute:</p>
+        <p ui-t="groupPanel.description"></p>
+        <br/>
+        <p>Using Filter:</p>
+        <p>{{"groupPanel.description" | t}}</p>
+        <p>Click the header menu to see language. NOTE: TODO: header text does not change after grid is rendered. </p>
+        <div ui-grid="resTemp.gridOptions" class="grid"></div>
+    </div>
+</div>
