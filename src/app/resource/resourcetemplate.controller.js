@@ -8,8 +8,6 @@
     /** @ngInject */
     function ResourceTemplateController(i18nService) {
         var vm = this;
-        vm.langs = i18nService.getAllLangs();
-        vm.lang = 'nl';
         vm.gridOptions = {
             columnDefs: [
                 { field: 'name' },

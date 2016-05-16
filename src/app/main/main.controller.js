@@ -18,21 +18,16 @@
             icon: 'dashboard'
         }, {
             link: '',
-            title: 'Friends',
+            title: 'Administration',
             icon: 'group'
         }, {
             link: '',
-            title: 'Messages',
-            icon: 'message'
-        }];
-        vm.admin = [{
-            link: '',
-            title: 'Trash',
-            icon: 'delete'
+            title: 'Pipeline',
+            icon: 'assessment'
         }, {
-            link: 'showListBottomSheet($event)',
-            title: 'Settings',
-            icon: 'settings'
+            link: '',
+            title: 'reports',
+            icon: 'report'
         }];
         activate();
 
