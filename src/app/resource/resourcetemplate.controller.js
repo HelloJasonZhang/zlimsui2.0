@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('test')
+        .module('ui')
         .controller('ResourceTemplateController', ResourceTemplateController);
 
     /** @ngInject */
